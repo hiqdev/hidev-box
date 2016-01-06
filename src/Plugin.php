@@ -17,12 +17,11 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
         'goals' => [
             'box'       => 'hidev\box\goals\BoxGoal',
             'box.json'  => 'hidev\box\goals\BoxJsonGoal',
-            'install'          => [
-                'require' => [
-                    'box-project/box2'   => '^2.6',
-                ],
-                'bin' => [
-                    'box'               => 'box-project/box2:^2.6',
+            'binaries'  => [
+                'box' => [
+                    'package'   => 'box-project/box2',
+                    'version'   => '^2.6',
+                    'installer' => 'https://box-project.github.io/box2/installer.php',
                 ],
             ],
         ],
