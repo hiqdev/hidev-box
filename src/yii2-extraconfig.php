@@ -11,15 +11,19 @@
 
 return [
     'components' => [
-        'goals' => [
-            'box'       => 'hidev\box\goals\BoxGoal',
-            'box.json'  => 'hidev\box\goals\BoxJsonGoal',
-        ],
-        'binaries'  => [
+        'config' => [
             'box' => [
-                'package'   => 'box-project/box2',
-                'version'   => '^2.6',
-                'installer' => 'https://box-project.github.io/box2/installer.php',
+                'class' => 'hidev\box\goals\BoxGoal',
+            ],
+            'box.json' => [
+                'class' => 'hidev\box\goals\BoxJsonGoal',
+            ],
+            'binaries' => [
+                'box' => [
+                    'package'   => 'box-project/box2',
+                    'version'   => '^2.6',
+                    'installer' => 'https://box-project.github.io/box2/installer.php',
+                ],
             ],
         ],
     ],
