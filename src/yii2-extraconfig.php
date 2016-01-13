@@ -13,10 +13,10 @@ return [
     'components' => [
         'config' => [
             'box' => [
-                'class' => 'hidev\box\goals\BoxGoal',
+                'class' => 'hidev\box\controllers\BoxController',
             ],
             'box.json' => [
-                'class' => 'hidev\box\goals\BoxJsonGoal',
+                'class' => 'hidev\box\controllers\BoxJsonController',
             ],
             'binaries' => [
                 'box' => [

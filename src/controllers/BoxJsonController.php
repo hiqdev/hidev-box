@@ -9,12 +9,12 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\goals;
+namespace hidev\box\controllers;
 
 /**
  * Goal for box.json config file.
  */
-class BoxJsonGoal extends \hidev\goals\FileGoal
+class BoxJsonController extends \hidev\controllers\FileController
 {
     protected $_file = 'box.json';
 }

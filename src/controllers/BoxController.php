@@ -9,12 +9,12 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\goals;
+namespace hidev\box\controllers;
 
 /**
  * Goal for Box.
  */
-class BoxGoal extends \hidev\goals\DefaultGoal
+class BoxController extends \hidev\controllers\CommonController
 {
     public $configFile = 'box.json';
 
