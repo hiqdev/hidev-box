@@ -18,16 +18,6 @@ class BoxController extends \hidev\controllers\CommonController
 {
     public $configFile = 'box.json';
 
-    public function init()
-    {
-        $this->setDeps($this->configFile);
-    }
-
-    public function options($action)
-    {
-        return array_merge(parent::options($action), ['force', 'coverageText', 'coverageClover']);
-    }
-
     public function getConfiguration()
     {
         return $this->config->get($this->configFile);
@@ -40,8 +30,6 @@ class BoxController extends \hidev\controllers\CommonController
 
     public function actionBuild()
     {
-        $args = ['build'];
-
-        return $this->passthru('box', $args);
+        return $this->passthru('box', ['build']);
     }
 }

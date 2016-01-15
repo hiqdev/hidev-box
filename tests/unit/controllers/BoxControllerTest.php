@@ -9,23 +9,23 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\tests\unit;
+namespace hidev\box\tests\unit\controllers;
 
-use hidev\box\Plugin;
+use hidev\box\controllers\BoxController;
 
 /**
- * Tests for Plugin class.
+ * Tests for BoxController.
  */
-class PluginTest extends \PHPUnit_Framework_TestCase
+class BoxControllerTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var Plugin
+     * @var BoxController
      */
     protected $object;
 
     protected function setUp()
     {
-        $this->object = new Plugin();
+        $this->object = new BoxController('box', null);
     }
 
     protected function tearDown()
@@ -34,6 +34,6 @@ class PluginTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertTrue(is_object($this->object));
+        $this->assertInstanceOf('hidev\base\Controller', $this->object);
     }
 }
