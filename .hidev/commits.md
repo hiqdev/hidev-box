@@ -1,7 +1,7 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Added basics
     - 9024a2a 2016-01-15 fixed tests (sol@hiqdev.com)
