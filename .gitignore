@@ -26,6 +26,8 @@ composer.lock
 coverage.clover
 
 # PHARs
+box.phar
 composer.phar
+hello.phar
 php-cs-fixer.phar
 phpunit.phar

@@ -1,0 +1,6 @@
+{
+    "main": "bin/hello",
+    "output": "hello.phar",
+    "chmod": "0755",
+    "stub": true
+}
