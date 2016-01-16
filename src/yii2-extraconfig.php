@@ -12,6 +12,11 @@
 return [
     'components' => [
         'config' => [
+            'build' => [
+                'after' => [
+                    'box',
+                ],
+            ],
             'box' => [
                 'class' => 'hidev\box\controllers\BoxController',
             ],

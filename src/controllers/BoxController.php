@@ -16,20 +16,33 @@ namespace hidev\box\controllers;
  */
 class BoxController extends \hidev\controllers\CommonController
 {
+    protected $_before = ['install', 'box.json'];
+
     public $configFile = 'box.json';
+
+    public $verbose;
 
     public function getConfiguration()
     {
-        return $this->config->get($this->configFile);
+        return $this->takeGoal($this->configFile);
     }
 
     public function actionMake()
     {
+        $this->takeVcs()->setIgnore([$this->getConfiguration()->get('output') => 'PHARs']);
+        /// TODO fix to use general vcsignore
+        $this->runRequest('.gitignore');
+
         return $this->actionBuild();
     }
 
     public function actionBuild()
     {
-        return $this->passthru('box', ['build']);
+        $args = ['build'];
+        if ($this->verbose) {
+            $args[] = '--verbose';
+        }
+
+        return $this->passthru('box', $args);
     }
 }
