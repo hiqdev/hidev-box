@@ -1,6 +1,11 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.3.1 2016-01-16
+
+- Added gitignoring, verbose option and connected bo build
+    - 1a24829 2016-01-16 improved `box` goal: connected to build, added gitignore and verbose option (sol@hiqdev.com)
+
 ## 0.3.0 2016-01-15
 
 - Added basics
