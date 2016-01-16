@@ -1,9 +1,12 @@
 hiqdev/hidev-box changelog
 --------------------------
 
-## 0.3.1 2016-01-16
+## 0.3.2 2016-01-16
 
 - Added `hello.phar` building for testing
+
+## 0.3.1 2016-01-16
+
 - Added gitignoring, verbose option and connected bo build
 
 ## 0.3.0 2016-01-15

@@ -1,10 +1,13 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
-## 0.3.1 2016-01-16
+## 0.3.2 2016-01-16
 
 - Added `hello.phar` building for testing
-    - ec7798d 2016-01-16 + hello.phar building for testing (sol@hiqdev.com)
+    - ec7798d 2016-01-16 + `hello.phar` building for testing (sol@hiqdev.com)
+
+## 0.3.1 2016-01-16
+
 - Added gitignoring, verbose option and connected bo build
     - 1a24829 2016-01-16 improved `box` goal: connected to build, added gitignore and verbose option (sol@hiqdev.com)
 
