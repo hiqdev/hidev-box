@@ -11,10 +11,20 @@
 
 namespace hidev\box\controllers;
 
+use hidev\helpers\Helper;
+
 /**
  * Goal for box.json config file.
  */
 class BoxJsonController extends \hidev\controllers\FileController
 {
     protected $_file = 'box.json';
+
+    public function actionSave()
+    {
+        $this->_items = Helper::uniqueConfig($this->_items);
+        $this->getFile()->save($this->getItems());
+        return 0;
+    }
+
 }
