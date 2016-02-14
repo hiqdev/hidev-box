@@ -1,7 +1,7 @@
 hiqdev/hidev-box changelog
 --------------------------
 
-## Under development
+## 0.3.3 2016-02-14
 
 - Changed box.json saving to fix conflic with `chown`
 

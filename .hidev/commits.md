@@ -1,7 +1,7 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
-## Under development
+## 0.3.3 2016-02-14
 
 - Changed box.json saving to fix conflic with `chown`
     - 6995737 2016-02-14 changed actionSave to save only items to fix conflict with `chown` (sol@hiqdev.com)
