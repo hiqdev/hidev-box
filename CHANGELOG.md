@@ -1,6 +1,10 @@
 hiqdev/hidev-box changelog
 --------------------------
 
+## Under development
+
+- Changed box.json saving to fix conflic with `chown`
+
 ## 0.3.2 2016-01-16
 
 - Added `hello.phar` building for testing

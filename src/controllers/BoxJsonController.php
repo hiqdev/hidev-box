@@ -26,5 +26,4 @@ class BoxJsonController extends \hidev\controllers\FileController
         $this->getFile()->save($this->getItems());
         return 0;
     }
-
 }
