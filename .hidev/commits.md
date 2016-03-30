@@ -1,6 +1,10 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.3.4 2016-03-30
+
+    - eb12f23 2016-03-30 changed `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)
+
 ## 0.3.3 2016-02-14
 
 - Changed box.json saving to fix conflic with `chown`
