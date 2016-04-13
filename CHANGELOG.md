@@ -1,6 +1,10 @@
 hiqdev/hidev-box changelog
 --------------------------
 
+## 0.3.5 2016-04-13
+
+- Changed to `hidev-config` <- `extension-config`
+
 ## 0.3.4 2016-03-30
 
 

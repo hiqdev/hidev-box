@@ -1,6 +1,12 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.3.5 2016-04-13
+
+- Changed to `hidev-config` <- `extension-config`
+    - ce53898 2016-04-13 testing requirements (sol@hiqdev.com)
+    - 5fd7e1b 2016-04-13 redone to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+
 ## 0.3.4 2016-03-30
 
     - eb12f23 2016-03-30 changed `extension-config` <- `yii2-extraconfig` (sol@hiqdev.com)
