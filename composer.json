@@ -44,11 +44,10 @@
         }
     ],
     "require": {
-        "hiqdev/composer-extension-plugin": "*@dev"
+        "hiqdev/composer-extension-plugin": "^0.0.5"
     },
     "require-dev": {
-        "hiqdev/hidev": "*@dev",
-        "hiqdev/yii2-collection": "*"
+        "hiqdev/hidev": "*@dev"
     },
     "autoload": {
         "psr-4": {
@@ -56,6 +55,8 @@
         }
     },
     "extra": {
-        "extension-config": "src/extension-config.php"
+        "extension-plugin": {
+            "hidev-config": "src/hidev-config.php"
+        }
     }
 }
