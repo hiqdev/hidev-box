@@ -1,6 +1,10 @@
 hiqdev/hidev-box changelog
 --------------------------
 
+## 0.3.6 2016-04-13
+
+- Fixed build with asset-packagist
+
 ## 0.3.5 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`

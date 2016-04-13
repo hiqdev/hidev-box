@@ -1,6 +1,11 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.3.6 2016-04-13
+
+- Fixed build with asset-packagist
+    - 9646568 2016-04-13 fixed build with asset-packagist (sol@hiqdev.com)
+
 ## 0.3.5 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`
