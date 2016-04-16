@@ -1,6 +1,13 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.3.7 2016-04-16
+
+- Changed to local installation of hidev plugins
+    - a1d61d9 2016-04-16 redone to local installation of hidev plugins (sol@hiqdev.com)
+- Fixed `hiqdev/composer-extension-plugin` version constraint
+    - 575fdaa 2016-04-16 fixed `hiqdev/composer-extension-plugin` version constraint (sol@hiqdev.com)
+
 ## 0.3.6 2016-04-13
 
 - Fixed build with asset-packagist

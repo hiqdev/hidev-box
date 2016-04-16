@@ -15,6 +15,7 @@ HiDev Box
 This plugin enables [PHAR](http://php.net/manual/en/intro.phar.php) building with [Box](https://github.com/box-project/box2).
 
 Provides usual Box operations:
+
 - generating box.json config file
 - building PHAR file
 
