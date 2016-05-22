@@ -1,6 +1,10 @@
 hiqdev/hidev-box changelog
 --------------------------
 
+## 0.4.0 2016-05-22
+
+- Changed: redone to `composer-config-plugin`
+
 ## 0.3.7 2016-04-16
 
 - Changed to local installation of hidev plugins

@@ -1,6 +1,11 @@
 hiqdev/hidev-box commits history
 --------------------------------
 
+## 0.4.0 2016-05-22
+
+- Changed: redone to `composer-config-plugin`
+    - fca7ed2 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+
 ## 0.3.7 2016-04-16
 
 - Changed to local installation of hidev plugins
