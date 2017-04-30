@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\controllers;
+namespace hidev\box\console;
 
 /**
  * Goal for Box.
@@ -24,12 +24,12 @@ class BoxController extends \hidev\controllers\CommonController
 
     public function getConfiguration()
     {
-        return $this->takeGoal($this->configFile);
+        return $this->take($this->configFile);
     }
 
     public function actionMake()
     {
-        $this->takeVcs()->setIgnore([$this->getConfiguration()->get('output') => 'PHARs']);
+        $this->take('vcs')->setIgnore([$this->getConfiguration()->get('output') => 'PHARs']);
         /// TODO fix to use general vcsignore
         $this->runRequest('.gitignore');
 

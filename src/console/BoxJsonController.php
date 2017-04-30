@@ -9,7 +9,7 @@
  * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\controllers;
+namespace hidev\box\console;
 
 use hidev\helpers\Helper;
 

@@ -10,25 +10,25 @@
  */
 
 return [
+    'controllerMap' => [
+        'build' => [
+            'after' => [
+                'box',
+            ],
+        ],
+        'box' => [
+            'class' => \hidev\box\console\BoxController::class,
+        ],
+        'box.json' => [
+            'class' => \hidev\box\console\BoxJsonController::class,
+        ],
+    ],
     'components' => [
-        'config' => [
-            'build' => [
-                'after' => [
-                    'box',
-                ],
-            ],
+        'binaries' => [
             'box' => [
-                'class' => 'hidev\box\controllers\BoxController',
-            ],
-            'box.json' => [
-                'class' => 'hidev\box\controllers\BoxJsonController',
-            ],
-            'binaries' => [
-                'box' => [
-                    'package'   => 'box-project/box2',
-                    'version'   => '^2.6',
-                    'installer' => 'https://box-project.github.io/box2/installer.php',
-                ],
+                'package'   => 'box-project/box2',
+                'version'   => '^2.6',
+                'installer' => 'https://box-project.github.io/box2/installer.php',
             ],
         ],
     ],
