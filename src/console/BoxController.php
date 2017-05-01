@@ -18,25 +18,30 @@ class BoxController extends \hidev\controllers\CommonController
 {
     protected $_before = ['install', 'box.json'];
 
-    public $configFile = 'box.json';
-
     public $verbose;
 
     public function getConfiguration()
     {
-        return $this->take($this->configFile);
+        return $this->take('box.json');
     }
 
-    public function actionMake()
+    public function actionIndex()
     {
-        $this->take('vcs')->setIgnore([$this->getConfiguration()->get('output') => 'PHARs']);
+        $this->take('vcs')->setIgnore([
+            $this->getConfiguration()->get('output') => 'Binaries',
+        ]);
         /// TODO fix to use general vcsignore
         $this->runRequest('.gitignore');
 
-        return $this->actionBuild();
+        return $this->runBuild();
     }
 
     public function actionBuild()
+    {
+        $this->runBuild();
+    }
+
+    public function runBuild()
     {
         $args = ['build'];
         if ($this->verbose) {

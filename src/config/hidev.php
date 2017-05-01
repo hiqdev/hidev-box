@@ -24,6 +24,9 @@ return [
         ],
     ],
     'components' => [
+        'box.json' => [
+            'class' => \hidev\box\components\BoxJson::class,
+        ],
         'binaries' => [
             'box' => [
                 'package'   => 'box-project/box2',

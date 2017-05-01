@@ -14,16 +14,12 @@ namespace hidev\box\console;
 use hidev\helpers\Helper;
 
 /**
- * Goal for box.json config file.
+ * `box.json` config file.
  */
 class BoxJsonController extends \hidev\controllers\FileController
 {
-    protected $_file = 'box.json';
-
-    public function actionSave()
+    public function actionIndex()
     {
-        $this->_items = Helper::uniqueConfig($this->_items);
-        $this->getFile()->save($this->getItems());
-        return 0;
+        $this->take('box.json')->save();
     }
 }
