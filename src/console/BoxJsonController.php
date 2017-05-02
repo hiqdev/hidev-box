@@ -16,7 +16,7 @@ use hidev\helpers\Helper;
 /**
  * `box.json` config file.
  */
-class BoxJsonController extends \hidev\controllers\FileController
+class BoxJsonController extends \hidev\base\Controller
 {
     public function actionIndex()
     {
