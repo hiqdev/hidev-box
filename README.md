@@ -9,14 +9,17 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-box.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-box/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-box/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-box/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
 
-This plugin enables [PHAR](http://php.net/manual/en/intro.phar.php) building with [Box](https://github.com/box-project/box2).
+This plugin enables [PHAR] building with [Box](https://github.com/box-project/box2).
 
 Provides usual Box operations:
 
 - generating box.json config file
 - building PHAR file
+
+[hidev]:    https://github.com/hiqdev/hidev
+[phar]:     http://php.net/manual/en/intro.phar.php
 
 ## Installation
 
