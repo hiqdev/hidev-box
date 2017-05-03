@@ -1,22 +1,21 @@
 <?php
-
-/*
+/**
  * Box plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-box
  * @package   hidev-box
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\tests\unit\controllers;
+namespace hidev\box\tests\unit\console;
 
-use hidev\box\controllers\BoxController;
+use hidev\box\console\BoxController;
 
 /**
  * Tests for BoxController.
  */
-class BoxControllerTest extends \PHPUnit_Framework_TestCase
+class BoxControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var BoxController
@@ -34,6 +33,6 @@ class BoxControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertInstanceOf('hidev\base\Controller', $this->object);
+        $this->assertInstanceOf(\hidev\base\Controller::class, $this->object);
     }
 }

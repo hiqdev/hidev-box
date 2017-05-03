@@ -1,22 +1,21 @@
 <?php
-
-/*
+/**
  * Box plugin for HiDev
  *
  * @link      https://github.com/hiqdev/hidev-box
  * @package   hidev-box
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2016, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2016-2017, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\box\tests\unit\controllers;
+namespace hidev\box\tests\unit\console;
 
-use hidev\box\controllers\BoxJsonController;
+use hidev\box\console\BoxJsonController;
 
 /**
  * Tests for BoxJsonController.
  */
-class BoxJsonControllerTest extends \PHPUnit_Framework_TestCase
+class BoxJsonControllerTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var BoxJsonController
@@ -25,7 +24,7 @@ class BoxJsonControllerTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new BoxJsonController('.box.json', null);
+        $this->object = new BoxJsonController('box.json', null);
     }
 
     protected function tearDown()
@@ -34,6 +33,6 @@ class BoxJsonControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testConstructor()
     {
-        $this->assertInstanceOf('hidev\base\Controller', $this->object);
+        $this->assertInstanceOf(\hidev\base\Controller::class, $this->object);
     }
 }
