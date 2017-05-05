@@ -16,4 +16,6 @@ namespace hidev\box\components;
 class BoxJson extends \hidev\base\ConfigFile
 {
     protected $_file = 'box.json';
+
+    public $chmod = '0755';
 }
