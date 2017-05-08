@@ -13,7 +13,7 @@ namespace hidev\box\components;
 /**
  * `box.json` config file.
  */
-class BoxJson extends \hidev\base\ConfigFile
+class BoxJson extends \hidev\components\File
 {
     protected $_file = 'box.json';
 
