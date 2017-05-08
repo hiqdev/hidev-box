@@ -1,6 +1,6 @@
 # HiDev Box
 
-**Box plugin for HiDev**
+**HiDev plugin for Box PHAR builder**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-box/v/stable)](https://packagist.org/packages/hiqdev/hidev-box)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-box/downloads)](https://packagist.org/packages/hiqdev/hidev-box)
@@ -11,7 +11,7 @@
 
 [HiDev] is the automation tool mixed with code generator for easier continuous development.
 
-This plugin enables [PHAR] building with [Box](https://github.com/box-project/box2).
+This plugin enables [PHAR] building with [Box].
 
 Provides usual Box operations:
 
@@ -20,6 +20,7 @@ Provides usual Box operations:
 
 [hidev]:    https://github.com/hiqdev/hidev
 [phar]:     http://php.net/manual/en/intro.phar.php
+[box]:      https://github.com/box-project/box2
 
 ## Installation
 

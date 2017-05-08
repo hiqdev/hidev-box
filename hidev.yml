@@ -1,14 +1,14 @@
 package:
     type:           yii2-extension
     name:           hidev-box
-    title:          Box plugin for HiDev
+    title:          HiDev plugin for Box PHAR builder
     headline:       HiDev Box
     keywords:       box, phar, hidev, plugin
     namespace:      hidev\box
     description:    |
         [HiDev] is the automation tool mixed with code generator for easier continuous development.
 
-        This plugin enables [PHAR] building with [Box](https://github.com/box-project/box2).
+        This plugin enables [PHAR] building with [Box].
 
         Provides usual Box operations:
 
@@ -17,3 +17,4 @@ package:
 
         [hidev]:    https://github.com/hiqdev/hidev
         [phar]:     http://php.net/manual/en/intro.phar.php
+        [box]:      https://github.com/box-project/box2

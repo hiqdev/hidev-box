@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-box",
     "type": "yii2-extension",
-    "description": "Box plugin for HiDev",
+    "description": "HiDev plugin for Box PHAR builder",
     "keywords": [
         "box",
         "phar",
