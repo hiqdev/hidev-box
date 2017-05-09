@@ -15,7 +15,7 @@ This plugin enables [PHAR] building with [Box].
 
 Provides usual Box operations:
 
-- generating box.json config file
+- generating `box.json` config file
 - building PHAR file
 
 [hidev]:    https://github.com/hiqdev/hidev
