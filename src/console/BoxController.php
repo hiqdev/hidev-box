@@ -11,9 +11,9 @@
 namespace hidev\box\console;
 
 /**
- * Goal for Box.
+ * PHAR building with Box.
  */
-class BoxController extends \hidev\controllers\CommonController
+class BoxController extends \hidev\base\Controller
 {
     protected $_before = ['install', 'box.json'];
 
