@@ -28,8 +28,8 @@ return [
         ],
         'binaries' => [
             'box' => [
-                'package'   => 'box-project/box2',
-                'version'   => '^2.6',
+                'package' => 'box-project/box2',
+                'version' => '^2.6',
                 'installer' => 'https://box-project.github.io/box2/installer.php',
             ],
         ],
