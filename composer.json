@@ -43,9 +43,6 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
-    "require": {
-        "hiqdev/composer-config-plugin": "*@dev"
-    },
     "require-dev": {
         "hiqdev/hidev": "dev-master",
         "hiqdev/hidev-php": "dev-master",
@@ -65,7 +62,7 @@
     },
     "extra": {
         "config-plugin": {
-            "hidev": "src/config/hidev.php"
+            "hidev": "config/hidev.php"
         }
     },
     "repositories": [
